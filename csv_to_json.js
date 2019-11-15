@@ -1,7 +1,7 @@
 const csvjson = require('csvjson');
 const readFile = require('fs').readFile;
 var fs = require('fs');
-readFile('./sample.csv', 'utf-8', (err, fileContent) => {
+readFile('./g2_input.csv', 'utf-8', (err, fileContent) => {
     if(err) {
         console.log(err); // Do something to handle the error or just throw it
         throw new Error(err);
